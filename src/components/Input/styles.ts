@@ -23,6 +23,10 @@ export const Container = styled.div`
     &::placeholder {
       color: #666360;
     }
+    &:-webkit-autofill {
+      -webkit-text-fill-color: #f4ede8;
+      -webkit-background-clip: text;
+    }
   }
 
   svg {
